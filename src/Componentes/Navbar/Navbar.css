@@ -1,0 +1,33 @@
+.d {
+  font-family: "Open Sans", sans-serif;
+}
+
+.c {
+  position: relative;
+  margin-left: -20px;
+  padding: 5px;
+}
+
+.a {
+  border-radius: 10px;
+}
+
+
+@media screen and (min-width: 960px) {
+  .a {
+    position: relative;
+    margin-left: 800px;
+  }
+  .b {
+    position: absolute;
+    margin-left: 1050px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .a {
+    position: relative;
+    margin-top: 100px;
+    margin-left: -70px;
+  }
+}
